@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: yejiale-mnist-cnn-digit-recognizer
+    runtime: python
+    plan: free
+    rootDir: digit-recognition
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
