@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-digit-recognition
+    name: yejiale-cnn-digit-recognition
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
